@@ -1,0 +1,30 @@
+.navbar.bg-primary{
+	background-color: #EDE0EA !important;
+	color: #4A276C;
+	font-weight: 500;
+}
+body {
+	background-color: #4A276C;
+}
+::placeholder {
+	color: #4A276C !important;
+}
+i.material-icons {
+	color: #4A276C !important;
+}
+.icons{
+	height: 30px;
+	width: auto;
+}
+
+.footer-default{
+	color: #EDE0EA;
+}
+
+footer i.material-icons {
+	color: #EDE0EA !important;
+}
+
+a.footer-default:link{
+	color: #EDE0EA !important;
+}
