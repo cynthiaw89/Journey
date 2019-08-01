@@ -28,3 +28,41 @@ footer i.material-icons {
 a.footer-default:link{
 	color: #EDE0EA !important;
 }
+
+.info{
+	max-width: 300px;
+    margin: 20px auto;
+	padding: 70px 20px;
+	text-align: center !important;
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: #EDE0EA;
+}
+.main-raised {
+	padding: 0px 10px;
+}
+.text-center {
+	text-align: center !important;
+}
+.section{
+	padding: 0px 40px;
+	max-width: 90vw;
+}
+.title {
+	text-align: center !important;
+	width: 100%;
+}
+.main-container {
+	width: 100%;
+}
+.search-bar {
+	text-align: right;
+}
+.card-catalog {
+	padding: 0px 40px;
+	max-width: 90vw;
+}
+.card {
+	padding: auto 10px;
+	margin: 20px 10px;
+}
