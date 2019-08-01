@@ -1,7 +1,17 @@
-.navbar.bg-primary{
+.navbar-light{
 	background-color: #EDE0EA !important;
 	color: #4A276C;
 	font-weight: 500;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-outline-success{
+    color: #4A276C;
+    border: solid 1px #4A276C;
+}
+.btn-outline-success:hover{
+    background-color: #4A276C;
+    color: #EDE0EA;
+    border: 0;
 }
 body {
 	background-color: #4A276C;
@@ -38,9 +48,6 @@ a.footer-default:link{
 	box-sizing: border-box;
 	background-color: #EDE0EA;
 }
-.main-raised {
-	padding: 0px 10px;
-}
 .text-center {
 	text-align: center !important;
 }
@@ -65,4 +72,58 @@ a.footer-default:link{
 .card {
 	padding: auto 10px;
 	margin: 20px 10px;
+}
+@media only screen and (max-width: 500px;){
+	h1 {
+	font-size: 10px !important;
+	}
+}
+.wide-container {
+    width: 100vw;
+}
+.page-header {
+    width: 100vw;
+    background-image: url(assets/img/bg-primary.jpg);
+    background-size: cover;
+    padding: 25% 25%;
+    color: #EDE0EA;
+}
+.main-raised {
+    margin: 20px;
+	background-color: #EDE0EA;
+	min-height: 60vh;
+	border-radius: 10px;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 20px 20px;
+}
+
+#social {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-flex;
+	padding: 5px;
+	width: 60vw;
+	flex-wrap: wrap;
+}
+.icons{
+	margin: 15px;
+}
+.copyright {
+	display: inline-flex;
+	justify-content: center;
+}
+.card {
+	padding:20px;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-deck {
+	margin: 20px, 20px;
+}
+.material-icons, .card-title, .card-subtitle {
+	text-align: center;
+}
+.journal-description {
+	text-align: center;
+	margin: 20px;
 }
