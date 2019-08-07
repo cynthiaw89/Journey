@@ -29,8 +29,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="journal.html">Journal<span class="sr-only">(current)</span></a>
+                <li class="nav-item active">
+                  <a class="nav-link" href="journal.html">Journal<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
@@ -58,100 +58,98 @@
     </h3>
 </div>
 <!--Need to create main info div-->
-<div class="main-raised">
+<div class="main-raised" id="content2">
     <h2 class="title">What is this?</h2>
     <p class="journal-description">The #100DaysOfCode challenge, asks developers to make a public commitment to code every day for 100 days in order to help build the habit of finding time to improve your skills.  In addition, you should publish a journal entry daily for accountability and to motivate your peers.  For more information, please visit <a href="#">#100DaysOfCode</a>. </p>
     <nav aria-label="Journal-nav">
         <ul class="pagination justify-content-center">
           <li class="page-item">
-            <a class="page-link" href="journal.html" tabindex="-1">Previous</a>
+            <a class="page-link" href="journal.html#content" tabindex="-1">Previous</a>
           </li>
-          <li class="page-item"><a class="page-link" href="journal.html">7/28 - 8/3</a></li>
-          <li class="page-item active"><a class="page-link" href="journal2.html">7/21 - 7/27</a></li>
-          <li class="page-item disabled">
-            <a class="page-link" href="#" aria-disabled="true">Next</a>
+          <li class="page-item">
+            <a class="page-link" href="journal.html#content">8/10 - 8/4</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="journal2#content2.html">8/3 - 7/28</a>
+          </li>
+          <li class="page-item">
+              <a class="page-link" href="journal3.html#content3">7/27 - 7/21</a>
+            </li>
+          <li class="page-item">
+            <a class="page-link" href="journal3.html#content3">Next</a>
           </li>
         </ul>
       </nav>
 <!--For further info-->
-<div class="card-deck row justify-content-center">
-        <div class="card" style="min-width: 20vw;">
-          <div class="card-body">
-            <h5 class="card-title">July 27th, 2019</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Saturday</h6>
-            <p class="card-text"> <strong>Today's Progress: </strong>Watched some ZtM tutorials and coded along a bit.</p>
-            <p class="card-text"><strong>Thoughts: </strong>This is starting to feel a bit repetitive, but there are nuggets of excellence that I don't want to miss.  Only spent a little over an hour on this today.  Spent a lot of time with my family and went out to an arcade.</p>
-            <p class="card-text"><strong>Link to work: </strong>N/A, they were just coding exercises.</p>
-        </div>
-        </div>
-        <div class="card" style="min-width: 20vw;">
-          <div class="card-body">
-            <h5 class="card-title">July 26th, 2019</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Friday</h6>
-            <p class="card-text"> <strong>Today's Progress: </strong>Finished my Robot Friend project in CSS.</p>
-            <p class="card-text"><strong>Thoughts: </strong>Felt good.</p>
-            <p class="card-text"><strong>Link to work: </strong><a href="https://codepen.io/cynthiaw89/full/EqNPKd" class="card-link">Robot Friend</a></p>
-        </div>
-        </div>
-        <div class="card" style="min-width: 20vw;">
-          <div class="card-body">
-              <h5 class="card-title">July 25th, 2019</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Thursday</h6>
-              <p class="card-text"> <strong>Today's Progress: </strong>Finished another chapter of First Year in Code.  Had a few laughs.
-                Finished project 5, It looks… okay.  I was kind of just ready to be done with it, so I sent it through for my cert, which I got!  Responsive Web Design or something.  I spent most of today working through SCIP, and didn't get through section 1.1 yet.  
-                </p>
-              <p class="card-text"><strong>Thoughts: </strong>The text is a difficult read for me.  It's been so long since I've dealt with logic, I feel like I lost a lot of my mental acuity.  It further cements that I should be doing this though.  If I don't exercise my mind soon, I won't have much of one left as I get older.  Hopefully after a couple of months of continuous study, I'll start picking things up quickly again.  I don't think it will ever be as easy as it was when I was younger, but that's okay.  I can't go back into the past.  Time to keep moving forward.  
-                I'm a little burnt out on SCIP exercises tonight, I'm going to move onto my zero to mastery course that I haven’t touched in about a week.  I'll probably also work through some free code camp stuff.  Time for some javascript!</p>
-                <p class="card-text"><strong>Add:</strong>https://thoughtbot.com/upcase/design-for-developers to list of things to complete.</p>
-              <p class="card-text"><strong>Link to work: </strong><a href="https://codepen.io/cynthiaw89/full/xvVZVw" class="card-link">Personal Portfolio</a></p>
-              <p class="card-text"><strong>Link to work: </strong><a href="https://github.com/cynthiaw89/SICP-exercises" class="card-link">SICP Exercises</a></p>
-            </div>
-        </div>
-</div>
-<div class="card-deck row justify-content-center">
-        <div class="card" style="min-width: 20vw;">
-          <div class="card-body">
-              <h5 class="card-title">July 24th, 2019</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Wednesday</h6>
-              <p class="card-text"> <strong>Today's Progress: </strong>Made some progress on Project #5.  I could add a bassic media query and submit it right now, but it wouldn't feel done.</p>
-              <p class="card-text"><strong>Thoughts: </strong>I'm feeling a bit better about the design stuff.  Practice will hopefully allow me to build my own style.  I'm also looking forward to the backend stuff and some computer science audit courses I've signed up for.  I'm wondering if machine learning might be my end goal... Time will tell.  For now I've started reading Your First Year in Code by Isaac Lyman and I'm finding it really interesting.</p>
-              <p class="card-text"><strong>Link to work: </strong><a href="https://codepen.io/cynthiaw89/full/xvVZVw" class="card-link">Personal Portfolio</a></p>
-          </div>
-      </div>
-      <div class="card" style="min-width: 20vw;">
+<div class="card-deck justify-content-center">
+    <div class="card" style="min-width: 20vw;">
         <div class="card-body">
-            <h5 class="card-title">July 23rd, 2019</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Tuesday</h6>
-            <p class="card-text"><strong>Today's Progress: </strong>Started on Project #5.  Layout is pretty much done.</p>
-            <p class="card-text"><strong>Thoughts:</strong>I have no style.  I'm bad at colors.  I wish I had specific instructions on what colors to use, how to style, etc.  I can do the coding, it's deciding what to code that's the issue.</p>
-            <p class="card-text"><strong>Link to work: </strong><a href="https://codepen.io/cynthiaw89/full/xvVZVw" class="card-link">Personal Portfolio</a></p>
-        </div>
-  </div>
-  <div class="card-deck row justify-content-center">
-      <div class="card" style="min-width: 20vw;">
-        <div class="card-body">
-            <h5 class="card-title">July 22th, 2019</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Monday</h6>
-            <p class="card-text"> <strong>Today's Progress: </strong>Finished project #3 and made everything prettier (still very much ugly).  I figured out border and background gradients, fixed positions, and got lots of practice in finding the misspelled tag.</p>
-            <p class="card-text"><strong>Thoughts: </strong>I feel like even though I completed the project, I didn't accomplish a whole lot.  I'm itching to move on to new topics, but I know I need to ensure I have enough base knowledge to not overwhelm myself later.</p>
-            <p class="card-text"><strong>Post-Script: </strong>Decided to code some more, finished project #4!!! I'm feeling pretty good.</p>
-            <p class="card-text"><strong>Link to work: </strong><a href="https://codepen.io/cynthiaw89/pen/MNYYPr" class="card-link">Product Landing Page</a></p>
-            <p class="card-text"><strong>Link to work: </strong><a href="https://codepen.io/cynthiaw89/pen/GVoRBE" class="card-link">Technical Documentation</a></p>
+          <h5 class="card-title">August 3rd, 2019</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Saturday</h6>
+          <p class="card-text"> <strong>Today's Progress: </strong>Watched some lecture videos when I could</p>
+          <p class="card-text"><strong>Thoughts: </strong>Today was super hectic.  I watched maybe an hour of lectures on Zero to Mastery.</p>
+          <p class="card-text"><strong>Link to work: </strong>N/A</p>
         </div>
     </div>
     <div class="card" style="min-width: 20vw;">
         <div class="card-body">
-            <h5 class="card-title">July 21st, 2019</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Sunday</h6>
-            <p class="card-text"> <strong>Today's Progress: </strong>Fixed Flexbox on project #3, did some general layout and styling with CSS.</p>
-            <p class="card-text"><strong>Thoughts: </strong>Starting to feel a lot more comfortable with flexbox which is helping with my confidence.</p>
-            <p class="card-text"><strong>Post-Script: </strong>Decided to code some more, finished project #4!!! I'm feeling pretty good.</p>
-            <p class="card-text"><strong>Link to work: </strong><a href="https://codepen.io/cynthiaw89/pen/MNYYPr" class="card-link">Product Landing Page</a></p>
+          <h5 class="card-title">August 2nd, 2019</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Friday</h6>
+          <p class="card-text"> <strong>Today's Progress: </strong>I got pulled into CS50 by Harvard.I watched week 0 and started working on the first project in Scratch.</p>
+          <p class="card-text"><strong>Thoughts: </strong>I was really hesitant to start a new course.  I already have no many materials I'm working through, I'm afraid of being overwhelmed by my options.  I do, however, really like this course.  I feel like it's already filling in some knowledge that will make my programming so much smoother in the future.</p>
+          <p class="card-text"><strong>Link to work: </strong><a href="https://scratch.mit.edu/projects/323061552/" class="card-link">Eat the Fishies</a></p>
+      </div>
+      </div>
+        <div class="card" style="min-width: 20vw;">
+          <div class="card-body">
+            <h5 class="card-title">August 1st, 2019</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Thursday</h6>
+            <p class="card-text"> <strong>Today's Progress: </strong>Played around with the layout on this site just a bit, and then decided to rebuild the whole thing without material kit.  Watched some Javascript tutorials on Zero to Mastery.  I also continued working on Free Code Camp's JavaScript.</p>
+            <p class="card-text"><strong>Thoughts: </strong>I'm feeling pretty good.  I'm also hungry.  Maybe I should cook a burger.</p>
+            <p class="card-text"><strong>Link to work: </strong><a href="index.html" class="card-link">Cynthia's Journey Website</a></p>
         </div>
+        </div>
+        <div class="card" style="min-width: 20vw;">
+          <div class="card-body">
+            <h5 class="card-title">July 31st, 2019</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Wednesday</h6>
+            <p class="card-text"> <strong>Today's Progress: </strong>I decided to build a website to host this journal. Obviously, I couldn't stop there. Chances are you're reading it there now. I also spent some time working with GitHub. Learning about publishing pages, Github Desktop, etc.</p>
+            <p class="card-text"><strong>Thoughts: </strong>This is pretty neat. I feel a bit like I'm cheating since I'm using frameworks, but that's what they're there for. No need to reinvent the wheel. It looks pretty neat. I feel like I'm finally starting to understand some design basics too.</p>
+            <p class="card-text"><strong>Link to work: </strong><a href="index.html" class="card-link">Cynthia's Journey Website</a></p>
+        </div>
+        </div>
+</div>
+<div class="card-deck row justify-content-center">
+      <div class="card" style="min-width: 20vw;">
+          <div class="card-body">
+              <h5 class="card-title">July 30th, 2019</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Tuesday</h6>
+              <p class="card-text"> <strong>Today's Progress: </strong>Did just a bit of javascript and watched some tutorials from ZtM.</p>
+              <p class="card-text"><strong>Thoughts: </strong>A bit tired. Only did a couple of hours.</p>
+              <p class="card-text"><strong>Link to work: </strong><a href="https://www.freecodecamp.org/cynthia_codes" class="card-link">Free Cope Camp Profile</a></p>
+          </div>
+        </div>
+        <div class="card" style="min-width: 20vw;">
+          <div class="card-body">
+              <h5 class="card-title">July 29th, 2019</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Monday</h6>
+              <p class="card-text"> <strong>Today's Progress: </strong>Lots of tutorials, moving through javascript. Mainly went through freecodecamp.</p>
+              <p class="card-text"><strong>Thoughts: </strong>Starting to feel like I remember javascript.</p>
+              <p class="card-text"><strong>Link to work: </strong><a href="https://www.freecodecamp.org/cynthia_codes" class="card-link">Free Cope Camp Profile</a></p>
+          </div>
+      </div>
+      <div class="card" style="min-width: 20vw;">
+        <div class="card-body">
+            <h5 class="card-title">July 28th, 2019</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Sunday</h6>
+            <p class="card-text"> <strong>Today's Progress: </strong>>Watched some ZtM tutorials and coded along a bit.</p>
+            <p class="card-text"><strong>Thoughts: </strong>This is starting to feel a bit repetitive, but there are nuggets of excellence that I don't want to miss. Only spent a little over an hour on this today. SPent a lot of time with my family and went out to an arcade.</p>
+            <p class="card-text"><strong>Link to work: </strong>No link today.  Only ZtM coding exercises. </p>
+        </div>
+  </div>
+      </div>
     </div>
   </div>
-  </div>
-</div>
 <!--Footer-->
 <footer class="footer footer-default">
     <div class="container">
