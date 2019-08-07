@@ -87,7 +87,14 @@ a.footer-default:link{
     background-image: url(assets/img/bg-primary.jpg);
     background-size: cover;
     padding: 25% 25%;
-    color: #EDE0EA;
+	color: #EDE0EA;
+}
+.page-header2 {
+    width: 100vw;
+    background-image: url(assets/img/weedy-grass.jpg);
+    background-size: cover;
+    padding: 25% 25%;
+	color: #EDE0EA;
 }
 .main-raised {
     margin: 20px;
